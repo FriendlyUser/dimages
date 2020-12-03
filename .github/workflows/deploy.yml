@@ -1,5 +1,9 @@
 name: ci
 
+
+env:
+  VERSION: v0.893
+
 on:
   push:
     branches: 
@@ -42,6 +46,6 @@ jobs:
           push: true
           tags: |
             FriendlyUser/dolwarp:latest
-            FriendlyUser/dolwarp:1.0.0
-            ghcr.io/FriendlyUser/lwarp-docker:latest
-            ghcr.io/FriendlyUser/lwarp-docker:1.0.0
+            FriendlyUser/dolwarp:$VERSION
+            ghcr.io/FriendlyUser/lwarp_docker:latest
+            ghcr.io/FriendlyUser/lwarp_docker:$VERSION
