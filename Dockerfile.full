@@ -1,4 +1,5 @@
-FROM blang/latex:ctanbasic
-MAINTAINER Benedikt Lang <mail@blang.io>
+ARG BASE_IMAGE=blang/latex:ctanbasic
+FROM ${BASE_IMAGE}
+MAINTAINER David Li <davidli012345@gmail.com>
 
 RUN tlmgr install scheme-full
