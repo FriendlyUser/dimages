@@ -46,6 +46,6 @@ jobs:
           push: true
           tags: |
             FriendlyUser/dolwarp:latest
-            FriendlyUser/dolwarp:$VERSION
+            FriendlyUser/dolwarp:v0.893
             ghcr.io/FriendlyUser/lwarp_docker:latest
-            ghcr.io/FriendlyUser/lwarp_docker:$VERSION
+            ghcr.io/FriendlyUser/lwarp_docker:v0.893
