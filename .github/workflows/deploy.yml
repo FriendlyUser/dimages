@@ -9,6 +9,10 @@ on:
     branches: 
       - master
       - main
+    paths-ignore:
+      - '.github/workflows/**'
+    tags:        
+      - '*' # Push events to v1 tag
 
 jobs:
     build-and-publish-latest:
