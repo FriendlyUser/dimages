@@ -2,7 +2,7 @@ name: ci
 
 
 env:
-  VERSION: v0.901
+  VERSION: v0.902
 
 on:
   push:
